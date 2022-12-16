@@ -1,22 +1,52 @@
 /* 設定通用 css */
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500&display=swap');
+
 .navbar-brand{
     font-family: 'Kiwi Maru', serif;
     font-size: 20px;
 }
 
+.footer-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+}
+
+.mylist.text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+}
+
+.banner-div{
+    position: relative;
+}
+
+.banner-text{
+    position: absolute;
+    bottom: 45%;
+    left: 25%;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 35px;
+}
+
 /* 設定 large 裝置 css */
 @media (min-width: 992px){
     .navbar-nav{
-        padding-left: 40%;
+        padding-left: 55%;
     }
     .navbar-brand{
-        padding: 10%;
+        padding: 15%;
     }
     .banner-sm{
         display: none;
     }
     .container-custom-width{
         max-width: 67.5%;      
+    }
+    .footer-text{
+        padding-top: 12px;
+        font-size: 14px;
     }
 }
 /* 設定 small 裝置 css*/
